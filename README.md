@@ -2,10 +2,10 @@
 
 Um posto de gasolina recebe periodicamente caminhões que abastecem seus tanques com os respectivos combustíveis:
 
-*Gasolina Comum
-*Gasolina Aditivada
-*Etanol
-*Diesel 
+* Gasolina Comum
+* Gasolina Aditivada
+* Etanol
+* Diesel 
 
 
 Cada um possui um determinado valor de custo. Cada tanque possui uma capacidade máxima de 20.000 litros para cada combustível e não é necessário o esvaziamento da capacidade total para um novo abastecimento.
@@ -30,11 +30,15 @@ Além do processo de abastecimento de veículos, o posto conta com serviços adi
 
 Desenvolva uma aplicação em Java que gerencie o fornecimento de combustíveis junto ao controle de capacidade dos tanques; a venda dos combustíveis e prestação dos serviços adicionais e por fim, apresente relatórios referentes aos gastos do posto, às vendas de produtos e dos serviços e ao lucro obtido pelo estabelecimento.
 
-## Funcionamento
+# Funcionamento
 
-No menu principal, aparecem 3 opções: 1 - Gerenciamento do posto; 2 - Vendas e 3 - Sair
+No menu principal, aparecem 3 opções: 
 
-## Gerenciamento do posto
+1 - Gerenciamento do posto; <br>
+2 - Vendas; <br>
+3 - Sair; <br>
+
+# Gerenciamento do posto
 
 Ao selecionar a opção 1 no menu principal, aparece a tela com as seguintes opções de gerência do posto:
 
@@ -68,9 +72,17 @@ Exibe o total de lucros brutos e lucros líquidos obtidos com a venda de combust
 Abaixo,exibe o total de lucros brutos obtidos com a venda dos serviços;
 Por último, exibe o total de lucros brutos e lucros líquidos da soma todas as vendas;
 
-## Vendas
+### Voltar
 
-Ao selecionar a opção 2 no menu principal, aparecem as opções: 1 - Abastecimento, 2 - Serviços e 3 - Sair
+Volta para a tela anterior
+
+# Vendas
+
+Ao selecionar a opção 2 no menu principal, aparecem as opções:
+
+1 - Abastecimento; <br>
+2 - Serviços; <br>
+3 - Voltar; <br>
 
 ### Abastecimento
 
@@ -80,7 +92,11 @@ Exibe a tela com os combustíveis na bomba e o valor por litro de cada um. Ao se
 
 Exibe a tela com sos serviços e seus respectivos valores. Ao selecionar, exibe uma tela de confirmação do serviço realizado, e o sistema inclui o valor nos lucros;
 
-### Sair
+### Voltar
+
+Volta para a tela anterior
+
+# Sair
 
 Encerra o sistema.
 
